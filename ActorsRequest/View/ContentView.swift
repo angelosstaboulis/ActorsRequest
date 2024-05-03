@@ -14,7 +14,7 @@ struct ContentView: View {
         NavigationStack {
             List(products){product in
                 Cell(product: product)
-            }.navigationTitle("MV Pattern Demo")
+            }.navigationTitle("Actor Demo")
             .navigationBarTitleDisplayMode(.inline)
             
         }.task{
