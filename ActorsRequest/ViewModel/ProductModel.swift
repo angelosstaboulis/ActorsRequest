@@ -6,6 +6,7 @@
 //
 
 import Foundation
+@MainActor
 class ProductModel:ObservableObject{
     let productServices = ProductServices()
     func getAllProducts() async throws ->[Product] {
